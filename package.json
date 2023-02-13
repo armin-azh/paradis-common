@@ -1,6 +1,6 @@
 {
   "name": "@jerichgcash/common",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "\"Common package code for share\"",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
@@ -9,7 +9,8 @@
   ],
   "scripts": {
     "clean": "rm -rf ./build",
-    "build": "npm run clean && tsc"
+    "build": "npm run clean && tsc",
+    "pub": "npm run build && npm publish"
   },
   "author": "Jericho",
   "license": "ISC",
