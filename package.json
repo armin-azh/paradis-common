@@ -1,0 +1,11 @@
+{
+  "name": "@jerichgcash/common",
+  "version": "0.0.1",
+  "description": "\"Common package code for share\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jericho",
+  "license": "ISC"
+}
