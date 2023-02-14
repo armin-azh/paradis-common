@@ -1,10 +1,8 @@
 
 
 export interface VendorDType {
-    data: {
-        userId: string,
-        password: string,
-        username: string,
-        email: string
-    }
+    userId: string,
+    password: string,
+    username: string,
+    email: string
 }

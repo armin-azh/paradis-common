@@ -8,7 +8,7 @@ export class CustomerUpdatedListener extends Listener{
     subject:CustomerSubjects.Updated = CustomerSubjects.Updated;
     queueGroupName = GroupName.Users;
 
-    onMessage(data: CustomerDType['data'], msg: Message) {
+    onMessage(data: CustomerDType, msg: Message) {
         // TODO: Business Logic
         msg.ack();
     }

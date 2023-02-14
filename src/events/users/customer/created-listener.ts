@@ -9,7 +9,7 @@ export class CustomerCreatedListener extends Listener{
     subject:CustomerSubjects.Created = CustomerSubjects.Created;
     queueGroupName = GroupName.Users;
 
-    onMessage(data: CustomerDType['data'], msg: Message) {
+    onMessage(data: CustomerDType, msg: Message) {
         // TODO: business logic
 
         msg.ack();
