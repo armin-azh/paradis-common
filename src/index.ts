@@ -16,28 +16,18 @@ export * from './events/base-publisher';
 export * from './events/base-listener';
 export * from './events/group-name';
 // Vendors
-export * from './events/users/vendor/created-publisher';
-export * from './events/users/vendor/subjects';
 export * from './events/users/vendor/subjects';
 export * from './events/users/vendor/created-listener';
-export * from './events/users/vendor/created-publisher';
 export * from './events/users/vendor/updated-listener';
-export * from './events/users/vendor/updated-publisher';
+export * from './events/users/vendor/types';
 // Customer
-export * from './events/users/customer/created-publisher';
-export * from './events/users/customer/subjects';
 export * from './events/users/customer/subjects';
 export * from './events/users/customer/created-listener';
-export * from './events/users/customer/created-publisher';
 export * from './events/users/customer/updated-listener';
-export * from './events/users/customer/updated-publisher';
+export * from './events/users/customer/types';
 // Admin
-export * from './events/users/admin/created-publisher';
-export * from './events/users/admin/subjects';
 export * from './events/users/admin/subjects';
 export * from './events/users/admin/created-listener';
-export * from './events/users/admin/created-publisher';
 export * from './events/users/admin/updated-listener';
-export * from './events/users/admin/updated-publisher';
 
 
