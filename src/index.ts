@@ -23,5 +23,8 @@ export * from './events/users/customer/subjects';
 export * from './events/users/customer/types';
 // Admin
 export * from './events/users/admin/subjects';
+// Service
+export * from './events/services/servicingPayment/types';
+export * from './events/services/servicingPayment/subjects';
 
 
