@@ -19,15 +19,17 @@ export const currentUser = (
     res: Response,
     next: NextFunction
 ) => {
+    // @ts-ignore
     if (!req.session?.jwt) {
         return next();
     }
 
     try {
-        const payload = jwt.verify(
-            req.session.jwt,
+        // @ts-ignore
+        const payload = jwt.verify(req.session.jwt,
             process.env.JWT_KEY!
         ) as UserPayload;
+        // @ts-ignore
         req.currentUser = payload;
     } catch (err) {}
 
