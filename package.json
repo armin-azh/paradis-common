@@ -1,6 +1,6 @@
 {
   "name": "@jerichgcash/common",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "description": "\"Common package code for share\"",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
