@@ -1,3 +1,4 @@
 export enum GroupName{
-    Users= 'users-service'
+    Users= 'users-service',
+    Servicing = 'servicing-service'
 }
